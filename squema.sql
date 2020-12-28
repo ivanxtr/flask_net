@@ -1,0 +1,2 @@
+DROP table if exists posts;
+CREATE TABLE posts (id INTEGER PRIMARY KEY AUTOINCREMENT,name TEXT NOT NULL,content TEXT NOT NULL);
